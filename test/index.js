@@ -2,12 +2,12 @@ import { Session } from "../dist/index.js";
 import { config } from "dotenv";
 config();
 new Session({
-	hostName: "FriendConnect Testing Instance",
+	hostName: "IVAAN!",
 	worldName: "Hello World",
-	version: "1.19.21",
+	version: "1.2.54",
 	protocol: 544,
 	connectedPlayers: 0,
-	maxConnectedPlayers: 40,
+	maxConnectedPlayers: 69,
 	ip: process.env.IP,
 	port: process.env.PORT,
 	log: true,
